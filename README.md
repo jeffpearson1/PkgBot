@@ -75,7 +75,7 @@ Below will be the basics to get this setup and working.  A few more bits and pie
 
 3. Install requirements in specific location
     * e.g. `pip install --target="/Library/AutoPkg/PkgBotPackages" -r requirements.txt`
-    * Or, if your simply testing, create and active a virtual environment and install the requirements
+    * Or, if you're simply testing, create and active a virtual environment and install the requirements
 
 4. Create a Slack Bot/App
     * There are numerous tutorials on how to do this and I'm not going to go over the entire process here.  I will simply provide the configuration requirements.  [Official documentation](https://slack.com/help/articles/115005265703-Create-a-bot-for-your-workspace)
@@ -83,7 +83,7 @@ Below will be the basics to get this setup and working.  A few more bits and pie
         * Incoming Webhooks
             * Create a webhook to post to the desired channel
         * Interactive Components
-            * Set a `Request URL` that the Bot will send messages too and your server will receive on
+            * Set a `Request URL` that the Bot will send messages to and your server will receive on
                 * e.g.  `https://pkgbot.my.server.org/slackbot/receive`
                 * or, if using ngrok:  `https://84c5df439d74.ngrok.io/slackbot/receive` (see below)
         * Bots
