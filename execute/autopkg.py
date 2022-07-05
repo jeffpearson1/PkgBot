@@ -6,7 +6,7 @@ import sys
 
 sys.path.insert(0, "/Library/AutoPkg/PkgBot")
 
-import utils
+from PkgBot import utils
 from execute import recipe_manager, recipe_runner
 
 
